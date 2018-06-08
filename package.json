@@ -1,8 +1,5 @@
 {
   "name": "@elsevier/nuxt-performance-audits",
-  "publishConfig": {
-    "access": "restricted"
-  },
   "version": "1.0.0",
   "description": "Audit the performance of Nuxt projects",
   "main": "index.js",
@@ -22,7 +19,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/elsevier-io/nuxt-performance-audits#readme",
   "dependencies": {
     "@types/node": "^10.3.2",
