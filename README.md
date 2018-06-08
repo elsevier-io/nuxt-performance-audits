@@ -20,12 +20,11 @@ new NuxtPerformanceAudits(mySettings).run(nuxt);
 You'll probably want to run the file as an NPM script and pass NODE_ENV=production to ensure that production-built assets are assessed, e.g. (if the file above is called run-performance-audits.js):
 
 ```json
+// package.json
 {
-    ...
     "scripts": {
         "perf": "NODE_ENV=production node run-performance-audits.js"
     },
-    ...
 }
 ```
 
