@@ -2,6 +2,8 @@
 
 Audit the performance of Nuxt projects.
 
+[[https://github.com/elsevier-io/nuxt-performance-audits/blob/master/example-output.png|alt=Example Output]]
+
 ## Usage
 
 Pass a nuxt instance to the NuxtPerformanceAudits class, optionally passing your settings as an argument. Then call `run()`.
