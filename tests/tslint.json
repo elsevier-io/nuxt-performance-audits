@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@elsevier/tslint-rules"
+  ],
+  "rules": {
+    "typedef": [true, "property-declaration", "member-variable-declaration"]
+  },
+  "linterOptions": {
+    "exclude": [
+      "**/*.d.ts"
+    ]
+  }
+}

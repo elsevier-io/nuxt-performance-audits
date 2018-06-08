@@ -1,0 +1,10 @@
+language: node_js
+
+env:
+- NODE_ENV=test
+
+before_script:
+- npm run transpile
+
+script:
+- npm run test

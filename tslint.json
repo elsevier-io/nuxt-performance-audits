@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "@elsevier/tslint-rules"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "**/*.d.ts"
+    ]
+  }
+}
