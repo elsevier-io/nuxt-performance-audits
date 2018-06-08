@@ -2,7 +2,7 @@
 
 Audit the performance of Nuxt projects.
 
-[[https://github.com/elsevier-io/nuxt-performance-audits/blob/master/example-output.png|alt=Example Output]]
+![Example Output](https://github.com/elsevier-io/nuxt-performance-audits/blob/master/example-output.png)
 
 ## Usage
 
