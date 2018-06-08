@@ -6,7 +6,7 @@ Audit the performance of Nuxt projects.
 
 ## Usage
 
-Pass a nuxt instance to the NuxtPerformanceAudits class, optionally passing your settings as an argument. Then call `run()`.
+Pass a nuxt instance to the `NuxtPerformanceAudits` class, optionally passing your settings as an argument. Then call `run()`.
 
 ```js
 import { Nuxt } from 'nuxt';
@@ -19,10 +19,9 @@ const mySettings = {};
 new NuxtPerformanceAudits(mySettings).run(nuxt);
 ```
 
-You'll probably want to run the file as an NPM script and pass NODE_ENV=production to ensure that production-built assets are assessed, e.g. (if the file above is called run-performance-audits.js):
+You'll probably want to run the file as an NPM script and pass `NODE_ENV=production` to ensure that production-built assets are assessed, e.g. (if the file above is called run-performance-audits.js):
 
 ```json
-// package.json
 {
     "scripts": {
         "perf": "NODE_ENV=production node run-performance-audits.js"
