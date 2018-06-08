@@ -1,6 +1,6 @@
 {
   "name": "@elsevier/nuxt-performance-audits",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Audit the performance of Nuxt projects",
   "main": "index.js",
   "scripts": {
