@@ -43,5 +43,4 @@ deploy
 !scripts/*.js
 !public/**/*.js
 !newrelic.js
-package-lock.json
 *.d.ts
