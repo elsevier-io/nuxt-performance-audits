@@ -1,4 +1,4 @@
-# Nuxt Performance Audits
+# Nuxt Performance Audits 🚀
 
 Audit the performance of Nuxt projects.
 
